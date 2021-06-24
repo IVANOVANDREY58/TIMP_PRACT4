@@ -15,7 +15,7 @@ int main ()
 	cout << "Размер хэша: " << hash.DigestSize() << endl; 
 	cout << "Размер блока: " << hash.BlockSize() << endl; 
 	fstream file;
-	string path = "/home/vo5torg/aboba.txt"; 
+	string path = "/home/kali/PRACT4/THEMMLP.txt"; 
 	file.open(path);
 	if(!file.is_open()) {
 		cout << "Файл не открыт" << endl;
